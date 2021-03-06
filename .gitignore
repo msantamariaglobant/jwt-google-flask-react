@@ -15,3 +15,7 @@ credentials.json
 cert.pem
 key.pem
 migrations
+#Pipfile.lock
+pg_storage/
+postgres/
+rhpy/
