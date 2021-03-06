@@ -1,0 +1,6 @@
+# debug img
+FLASK_ENV=development
+
+"openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365" will output "cert.pem" and "key.pem"
+
+run migrations "flask db init" "flask db migrate" and "flask db upgrade" a new user table will be created in the selected DB. The resultant migrations folder should be added to the repo

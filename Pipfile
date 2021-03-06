@@ -19,6 +19,9 @@ oauthlib = "*"
 psycopg2-binary = "*"
 flask-graphql = "*"
 graphene = "*"
+google = "*"
+conda = "*"
+google-auth = "*"
 
 [requires]
 python_version = "3.7"
